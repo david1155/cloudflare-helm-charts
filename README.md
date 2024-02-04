@@ -5,7 +5,7 @@ A convenient location to publish Cloudflare helm charts
 
 ### Setup
 ```bash
-helm repo add cloudflare https://cloudflare.github.io/helm-charts
+helm repo add cloudflare https://david1155.github.io/cloudflare-helm-charts
 helm repo update
 ```
 

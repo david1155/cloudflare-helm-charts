@@ -42,6 +42,8 @@ spec:
             # cloudflared will actually do. This file is created by a ConfigMap.
             - --config
             - /etc/cloudflared/config/config.yaml
+            - --origincert
+            - /etc/cloudflared/creds/cert.pem
             - run
           livenessProbe:
             httpGet:
